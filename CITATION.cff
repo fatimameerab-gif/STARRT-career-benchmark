@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code or benchmark, please cite it as below, and also cite the data sources listed in DATA_LICENSES.md."
+title: "STARRT career-text benchmark: code and data for 'Predicting Computing Career Fields from Text in STARRT.ai: A Leakage-Aware Comparison of Lexical, Sentence-Embedding, Fine-Tuned and Zero-Shot LLM Classifiers'"
+type: software
+authors:
+  - given-names: Meerab
+    family-names: Fatima
+    affiliation: "FAST-NUCES Peshawar"
+  - given-names: Rohail
+    family-names: Iqbal
+    affiliation: "FAST-NUCES Peshawar"
+  - given-names: Ubaid
+    family-names: Malik
+    affiliation: "FAST-NUCES Peshawar"
+  - given-names: Shahzeb
+    family-names: Khan
+    affiliation: "FAST-NUCES Peshawar"
+version: "1.0.0"
+date-released: "2026-10-08"
+license: MIT
+repository-code: "https://github.com/REPLACE-WITH-USERNAME/STARRT-career-benchmark"
+keywords:
+  - career prediction
+  - text classification
+  - ESCO
+  - O*NET
+  - benchmark
+  - DistilBERT
+  - zero-shot LLM

@@ -1,0 +1,88 @@
+{
+  "model": "sbert_all-MiniLM-L6-v2",
+  "dataset": "faruque",
+  "summary": {
+    "acc": 0.9255,
+    "macro_f1": 0.9333,
+    "top3": 0.9939,
+    "acc_sd": 0.0093,
+    "macro_f1_sd": 0.0106,
+    "top3_sd": 0.0024,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 427,
+      "acc": 0.9227166276346604,
+      "macro_f1": 0.9365426366333808,
+      "top3": 0.990632318501171
+    },
+    {
+      "n": 427,
+      "acc": 0.9437939110070258,
+      "macro_f1": 0.9522589882874622,
+      "top3": 0.9976580796252927
+    },
+    {
+      "n": 429,
+      "acc": 0.9230769230769231,
+      "macro_f1": 0.9289051921018715,
+      "top3": 0.993006993006993
+    },
+    {
+      "n": 426,
+      "acc": 0.92018779342723,
+      "macro_f1": 0.921843534944116,
+      "top3": 0.9953051643192489
+    },
+    {
+      "n": 426,
+      "acc": 0.9178403755868545,
+      "macro_f1": 0.9270307809597488,
+      "top3": 0.9929577464788732
+    }
+  ],
+  "time": "2026-10-08 08:58",
+  "top_confusions": [
+    [
+      "Software Development and Engineering",
+      "Artificial Intelligence",
+      28
+    ],
+    [
+      "Software Development and Engineering",
+      "Development",
+      28
+    ],
+    [
+      "Artificial Intelligence",
+      "Data Science",
+      14
+    ],
+    [
+      "Data Science",
+      "Artificial Intelligence",
+      14
+    ],
+    [
+      "Development",
+      "Software Development and Engineering",
+      13
+    ],
+    [
+      "Artificial Intelligence",
+      "Software Development and Engineering",
+      11
+    ],
+    [
+      "Software Development and Engineering",
+      "Security",
+      10
+    ],
+    [
+      "Artificial Intelligence",
+      "Security",
+      6
+    ]
+  ]
+}

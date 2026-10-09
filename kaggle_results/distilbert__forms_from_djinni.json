@@ -1,0 +1,25 @@
+{
+  "model": "distilbert",
+  "dataset": "forms_from_djinni",
+  "summary": {
+    "n": 33,
+    "acc": 0.7878787878787878,
+    "macro_f1": 0.8166233766233766,
+    "top3": 0.9090909090909091
+  },
+  "folds": [],
+  "time": "2026-10-08 11:49",
+  "config": {
+    "model": "distilbert-base-uncased",
+    "tag": "distilbert",
+    "datasets": "djinni,stackoverflow,faruque",
+    "folds": "0,1,2,3,4",
+    "epochs": 3,
+    "lr": 5e-05,
+    "batch": 32,
+    "max_len": 256,
+    "seed": 42,
+    "limit": 0,
+    "skip_forms": false
+  }
+}

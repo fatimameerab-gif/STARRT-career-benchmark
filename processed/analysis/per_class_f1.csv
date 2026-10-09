@@ -1,0 +1,76 @@
+model,dataset,class,f1
+TF-IDF + SVM,djinni,AI/ML Engineering,0.6621468926553672
+TF-IDF + SVM,djinni,Cybersecurity,0.8851174934725848
+TF-IDF + SVM,djinni,Data Engineering & Databases,0.8266448266448266
+TF-IDF + SVM,djinni,Data Science & Analytics,0.8031417112299465
+TF-IDF + SVM,djinni,DevOps & Cloud,0.8559147180192572
+TF-IDF + SVM,djinni,Game Development,0.9451476793248945
+TF-IDF + SVM,djinni,Mobile Development,0.9489026637627743
+TF-IDF + SVM,djinni,Networking & SysAdmin,0.7328145265888456
+TF-IDF + SVM,djinni,Product & Project Management,0.9060077519379846
+TF-IDF + SVM,djinni,QA & Testing,0.9516691579471849
+TF-IDF + SVM,djinni,UI/UX Design,0.9605568445475638
+TF-IDF + SVM,djinni,Web Development,0.9157653228449688
+TF-IDF + SVM,stackoverflow,AI/ML Engineering,0.2771134020618557
+TF-IDF + SVM,stackoverflow,Cybersecurity,0.18986719134284308
+TF-IDF + SVM,stackoverflow,Data Engineering & Databases,0.5041453519139178
+TF-IDF + SVM,stackoverflow,Data Science & Analytics,0.3679471788715486
+TF-IDF + SVM,stackoverflow,DevOps & Cloud,0.46418539325842695
+TF-IDF + SVM,stackoverflow,Embedded & IoT,0.5620502018606284
+TF-IDF + SVM,stackoverflow,Game Development,0.40482233502538073
+TF-IDF + SVM,stackoverflow,Mobile Development,0.7985899695561609
+TF-IDF + SVM,stackoverflow,Networking & SysAdmin,0.2959326788218794
+TF-IDF + SVM,stackoverflow,Product & Project Management,0.1323529411764706
+TF-IDF + SVM,stackoverflow,QA & Testing,0.19139966273187184
+TF-IDF + SVM,stackoverflow,UI/UX Design,0.12898089171974522
+TF-IDF + SVM,stackoverflow,Web Development,0.41739752998031143
+SBERT MiniLM + LR (original STARRT.ai),djinni,AI/ML Engineering,0.6435417617526243
+SBERT MiniLM + LR (original STARRT.ai),djinni,Cybersecurity,0.8560840024706609
+SBERT MiniLM + LR (original STARRT.ai),djinni,Data Engineering & Databases,0.8032359081419624
+SBERT MiniLM + LR (original STARRT.ai),djinni,Data Science & Analytics,0.7574931880108992
+SBERT MiniLM + LR (original STARRT.ai),djinni,DevOps & Cloud,0.8302687411598303
+SBERT MiniLM + LR (original STARRT.ai),djinni,Game Development,0.9221390967026877
+SBERT MiniLM + LR (original STARRT.ai),djinni,Mobile Development,0.9395411153910568
+SBERT MiniLM + LR (original STARRT.ai),djinni,Networking & SysAdmin,0.6977589339794065
+SBERT MiniLM + LR (original STARRT.ai),djinni,Product & Project Management,0.8846027035938016
+SBERT MiniLM + LR (original STARRT.ai),djinni,QA & Testing,0.9361488185017597
+SBERT MiniLM + LR (original STARRT.ai),djinni,UI/UX Design,0.9442031406615436
+SBERT MiniLM + LR (original STARRT.ai),djinni,Web Development,0.9002991026919243
+SBERT MiniLM + LR (original STARRT.ai),stackoverflow,AI/ML Engineering,0.2932940309506264
+SBERT MiniLM + LR (original STARRT.ai),stackoverflow,Cybersecurity,0.23272403031654035
+SBERT MiniLM + LR (original STARRT.ai),stackoverflow,Data Engineering & Databases,0.5028724626579855
+SBERT MiniLM + LR (original STARRT.ai),stackoverflow,Data Science & Analytics,0.43215434083601284
+SBERT MiniLM + LR (original STARRT.ai),stackoverflow,DevOps & Cloud,0.48356724107301474
+SBERT MiniLM + LR (original STARRT.ai),stackoverflow,Embedded & IoT,0.6240830202182859
+SBERT MiniLM + LR (original STARRT.ai),stackoverflow,Game Development,0.520763867838739
+SBERT MiniLM + LR (original STARRT.ai),stackoverflow,Mobile Development,0.8050249526759594
+SBERT MiniLM + LR (original STARRT.ai),stackoverflow,Networking & SysAdmin,0.3430609597924773
+SBERT MiniLM + LR (original STARRT.ai),stackoverflow,Product & Project Management,0.17105796513984597
+SBERT MiniLM + LR (original STARRT.ai),stackoverflow,QA & Testing,0.25943033102386454
+SBERT MiniLM + LR (original STARRT.ai),stackoverflow,UI/UX Design,0.20427236315086783
+SBERT MiniLM + LR (original STARRT.ai),stackoverflow,Web Development,0.433042212518195
+DistilBERT fine-tuned,djinni,AI/ML Engineering,0.6751662971175166
+DistilBERT fine-tuned,djinni,Cybersecurity,0.8825438027255029
+DistilBERT fine-tuned,djinni,Data Engineering & Databases,0.8324007460698108
+DistilBERT fine-tuned,djinni,Data Science & Analytics,0.8087889969808789
+DistilBERT fine-tuned,djinni,DevOps & Cloud,0.8634748773473185
+DistilBERT fine-tuned,djinni,Game Development,0.9410774410774411
+DistilBERT fine-tuned,djinni,Mobile Development,0.94864954984995
+DistilBERT fine-tuned,djinni,Networking & SysAdmin,0.7490144546649146
+DistilBERT fine-tuned,djinni,Product & Project Management,0.9084565542448911
+DistilBERT fine-tuned,djinni,QA & Testing,0.9486414844267727
+DistilBERT fine-tuned,djinni,UI/UX Design,0.9596948084259412
+DistilBERT fine-tuned,djinni,Web Development,0.9209701369410989
+DistilBERT fine-tuned,stackoverflow,AI/ML Engineering,0.2746201463140124
+DistilBERT fine-tuned,stackoverflow,Cybersecurity,0.09433962264150944
+DistilBERT fine-tuned,stackoverflow,Data Engineering & Databases,0.5540275049115914
+DistilBERT fine-tuned,stackoverflow,Data Science & Analytics,0.453678054786088
+DistilBERT fine-tuned,stackoverflow,DevOps & Cloud,0.5237876701851002
+DistilBERT fine-tuned,stackoverflow,Embedded & IoT,0.6553850566470673
+DistilBERT fine-tuned,stackoverflow,Game Development,0.533658876874782
+DistilBERT fine-tuned,stackoverflow,Mobile Development,0.8133545310015898
+DistilBERT fine-tuned,stackoverflow,Networking & SysAdmin,0.3356875778977981
+DistilBERT fine-tuned,stackoverflow,Product & Project Management,0.1290983606557377
+DistilBERT fine-tuned,stackoverflow,QA & Testing,0.2163308589607635
+DistilBERT fine-tuned,stackoverflow,UI/UX Design,0.17471264367816092
+DistilBERT fine-tuned,stackoverflow,Web Development,0.4849478390461997

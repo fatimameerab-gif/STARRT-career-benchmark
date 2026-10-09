@@ -1,0 +1,71 @@
+{
+  "forms_llm_vs_tfidf_mcnemar": [
+    0,
+    0,
+    1.0
+  ],
+  "distilbert_djinni_confusions": [
+    [
+      "DevOps & Cloud",
+      "Networking & SysAdmin",
+      286
+    ],
+    [
+      "Networking & SysAdmin",
+      "DevOps & Cloud",
+      257
+    ],
+    [
+      "Data Science & Analytics",
+      "AI/ML Engineering",
+      253
+    ],
+    [
+      "AI/ML Engineering",
+      "Data Science & Analytics",
+      239
+    ],
+    [
+      "Data Engineering & Databases",
+      "Data Science & Analytics",
+      187
+    ],
+    [
+      "Data Science & Analytics",
+      "Data Engineering & Databases",
+      179
+    ]
+  ],
+  "distilbert_stackoverflow_confusions": [
+    [
+      "Product & Project Management",
+      "Web Development",
+      446
+    ],
+    [
+      "Data Science & Analytics",
+      "Data Engineering & Databases",
+      439
+    ],
+    [
+      "Game Development",
+      "Embedded & IoT",
+      386
+    ],
+    [
+      "Web Development",
+      "DevOps & Cloud",
+      383
+    ],
+    [
+      "DevOps & Cloud",
+      "Web Development",
+      334
+    ],
+    [
+      "DevOps & Cloud",
+      "Data Engineering & Databases",
+      325
+    ]
+  ]
+}

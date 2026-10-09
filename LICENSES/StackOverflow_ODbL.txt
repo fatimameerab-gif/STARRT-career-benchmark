@@ -1,0 +1,9 @@
+The file kaggle/data/stackoverflow_folds.csv contains information from the Stack Overflow
+Developer Survey 2023-2025 (https://survey.stackoverflow.co/), which is made available under
+the Open Database License (ODbL) v1.0: https://opendatacommons.org/licenses/odbl/1-0/
+Any rights in individual contents of the database are licensed under the Database Contents
+License (DbCL) v1.0: https://opendatacommons.org/licenses/dbcl/1-0/
+
+stackoverflow_folds.csv is a derived database and is released under ODbL 1.0. If you publicly
+use a database derived from it, you must also release that database under ODbL 1.0 and keep
+this notice (attribution and share-alike).

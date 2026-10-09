@@ -1,0 +1,101 @@
+{
+  "model": "distilbert_seed13",
+  "dataset": "djinni",
+  "summary": {
+    "acc": 0.8904,
+    "macro_f1": 0.8726,
+    "top3": 0.9784,
+    "acc_sd": 0.0045,
+    "macro_f1_sd": 0.0055,
+    "top3_sd": 0.0014,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 5572,
+      "acc": 0.8871141421392678,
+      "macro_f1": 0.8671748062729899,
+      "top3": 0.9788226848528356
+    },
+    {
+      "n": 5572,
+      "acc": 0.884781048097631,
+      "macro_f1": 0.8675392602399573,
+      "top3": 0.9770279971284996
+    },
+    {
+      "n": 5573,
+      "acc": 0.8939529876188768,
+      "macro_f1": 0.8734430616178855,
+      "top3": 0.9779293019917459
+    },
+    {
+      "n": 5572,
+      "acc": 0.8890882986360373,
+      "macro_f1": 0.8726876784080712,
+      "top3": 0.9772074659009332
+    },
+    {
+      "n": 5572,
+      "acc": 0.8971643933955492,
+      "macro_f1": 0.88226357020276,
+      "top3": 0.9807968413496052
+    }
+  ],
+  "time": "2026-10-08 17:57",
+  "top_confusions": [
+    [
+      "DevOps & Cloud",
+      "Networking & SysAdmin",
+      318
+    ],
+    [
+      "Data Science & Analytics",
+      "AI/ML Engineering",
+      252
+    ],
+    [
+      "Networking & SysAdmin",
+      "DevOps & Cloud",
+      241
+    ],
+    [
+      "AI/ML Engineering",
+      "Data Science & Analytics",
+      220
+    ],
+    [
+      "Data Engineering & Databases",
+      "Data Science & Analytics",
+      189
+    ],
+    [
+      "Data Science & Analytics",
+      "Data Engineering & Databases",
+      167
+    ],
+    [
+      "Mobile Development",
+      "Web Development",
+      70
+    ],
+    [
+      "Data Science & Analytics",
+      "Product & Project Management",
+      64
+    ]
+  ],
+  "config": {
+    "model": "distilbert-base-uncased",
+    "tag": "distilbert_seed13",
+    "datasets": "djinni,faruque",
+    "folds": "0,1,2,3,4",
+    "epochs": 3,
+    "lr": 5e-05,
+    "batch": 32,
+    "max_len": 256,
+    "seed": 13,
+    "limit": 0,
+    "skip_forms": true
+  }
+}

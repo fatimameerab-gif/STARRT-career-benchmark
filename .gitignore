@@ -1,0 +1,17 @@
+raw/*
+!raw/README.md
+processed/*
+!processed/analysis/
+kaggle/results/
+kaggle/data/forms_test.csv
+**/__pycache__/
+*.npy
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+paper/*.bbl
+.ipynb_checkpoints/
+kaggle/data/djinni_nolook_folds.csv
+kaggle/data/djinni_masked_folds.csv
+kaggle/data/djinni_tools_folds.csv

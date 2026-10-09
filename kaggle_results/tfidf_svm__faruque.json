@@ -1,0 +1,81 @@
+{
+  "model": "tfidf_svm",
+  "dataset": "faruque",
+  "summary": {
+    "acc": 0.9227,
+    "macro_f1": 0.9288,
+    "acc_sd": 0.0141,
+    "macro_f1_sd": 0.0145,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 427,
+      "acc": 0.9063231850117096,
+      "macro_f1": 0.9155639939147305
+    },
+    {
+      "n": 427,
+      "acc": 0.9484777517564403,
+      "macro_f1": 0.9559685148456786
+    },
+    {
+      "n": 429,
+      "acc": 0.9207459207459208,
+      "macro_f1": 0.9273917829588344
+    },
+    {
+      "n": 426,
+      "acc": 0.9154929577464789,
+      "macro_f1": 0.9175082629164114
+    },
+    {
+      "n": 426,
+      "acc": 0.9225352112676056,
+      "macro_f1": 0.9275694529049799
+    }
+  ],
+  "time": "2026-10-08 08:49",
+  "top_confusions": [
+    [
+      "Software Development and Engineering",
+      "Artificial Intelligence",
+      27
+    ],
+    [
+      "Software Development and Engineering",
+      "Development",
+      24
+    ],
+    [
+      "Artificial Intelligence",
+      "Data Science",
+      18
+    ],
+    [
+      "Software Development and Engineering",
+      "Data Science",
+      12
+    ],
+    [
+      "Software Development and Engineering",
+      "Security",
+      12
+    ],
+    [
+      "Data Science",
+      "Artificial Intelligence",
+      11
+    ],
+    [
+      "Development",
+      "Software Development and Engineering",
+      11
+    ],
+    [
+      "Artificial Intelligence",
+      "Software Development and Engineering",
+      7
+    ]
+  ]
+}

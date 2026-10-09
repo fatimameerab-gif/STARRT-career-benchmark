@@ -1,0 +1,81 @@
+{
+  "model": "tfidf_svm",
+  "dataset": "stackoverflow",
+  "summary": {
+    "acc": 0.4381,
+    "macro_f1": 0.3641,
+    "acc_sd": 0.0049,
+    "macro_f1_sd": 0.0069,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 4876,
+      "acc": 0.441960623461854,
+      "macro_f1": 0.3658539639905815
+    },
+    {
+      "n": 4877,
+      "acc": 0.4348985031781833,
+      "macro_f1": 0.35954505721742375
+    },
+    {
+      "n": 4876,
+      "acc": 0.4411402789171452,
+      "macro_f1": 0.3667595585679156
+    },
+    {
+      "n": 4876,
+      "acc": 0.4300656275635767,
+      "macro_f1": 0.3540888954162376
+    },
+    {
+      "n": 4875,
+      "acc": 0.44266666666666665,
+      "macro_f1": 0.37442999525853793
+    }
+  ],
+  "time": "2026-10-08 08:49",
+  "top_confusions": [
+    [
+      "Data Engineering & Databases",
+      "Data Science & Analytics",
+      386
+    ],
+    [
+      "Embedded & IoT",
+      "Game Development",
+      315
+    ],
+    [
+      "Data Science & Analytics",
+      "Data Engineering & Databases",
+      312
+    ],
+    [
+      "Product & Project Management",
+      "Web Development",
+      280
+    ],
+    [
+      "Web Development",
+      "DevOps & Cloud",
+      280
+    ],
+    [
+      "DevOps & Cloud",
+      "Web Development",
+      268
+    ],
+    [
+      "DevOps & Cloud",
+      "Data Engineering & Databases",
+      230
+    ],
+    [
+      "DevOps & Cloud",
+      "Cybersecurity",
+      228
+    ]
+  ]
+}

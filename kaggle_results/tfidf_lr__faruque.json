@@ -1,0 +1,88 @@
+{
+  "model": "tfidf_lr",
+  "dataset": "faruque",
+  "summary": {
+    "acc": 0.9143,
+    "macro_f1": 0.9155,
+    "top3": 0.9911,
+    "acc_sd": 0.0114,
+    "macro_f1_sd": 0.0086,
+    "top3_sd": 0.0054,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 427,
+      "acc": 0.8946135831381733,
+      "macro_f1": 0.8992404070053652,
+      "top3": 0.9836065573770492
+    },
+    {
+      "n": 427,
+      "acc": 0.9297423887587822,
+      "macro_f1": 0.9167093499453846,
+      "top3": 0.9929742388758782
+    },
+    {
+      "n": 429,
+      "acc": 0.9184149184149184,
+      "macro_f1": 0.9248535662219987,
+      "top3": 0.9953379953379954
+    },
+    {
+      "n": 426,
+      "acc": 0.9154929577464789,
+      "macro_f1": 0.9170246393377504,
+      "top3": 0.9859154929577465
+    },
+    {
+      "n": 426,
+      "acc": 0.9131455399061033,
+      "macro_f1": 0.9196995383271797,
+      "top3": 0.9976525821596244
+    }
+  ],
+  "time": "2026-10-08 08:49",
+  "top_confusions": [
+    [
+      "Software Development and Engineering",
+      "Development",
+      31
+    ],
+    [
+      "Software Development and Engineering",
+      "Artificial Intelligence",
+      30
+    ],
+    [
+      "Artificial Intelligence",
+      "Data Science",
+      19
+    ],
+    [
+      "Software Development and Engineering",
+      "Security",
+      14
+    ],
+    [
+      "Data Science",
+      "Artificial Intelligence",
+      12
+    ],
+    [
+      "Development",
+      "Software Development and Engineering",
+      10
+    ],
+    [
+      "Software Development and Engineering",
+      "Data Science",
+      10
+    ],
+    [
+      "Artificial Intelligence",
+      "Security",
+      7
+    ]
+  ]
+}

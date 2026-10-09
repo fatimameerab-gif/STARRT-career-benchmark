@@ -1,0 +1,101 @@
+{
+  "model": "distilbert_seed13",
+  "dataset": "faruque",
+  "summary": {
+    "acc": 0.9321,
+    "macro_f1": 0.9408,
+    "top3": 0.9953,
+    "acc_sd": 0.0085,
+    "macro_f1_sd": 0.0089,
+    "top3_sd": 0.0026,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 427,
+      "acc": 0.9203747072599532,
+      "macro_f1": 0.9334011130496545,
+      "top3": 0.9929742388758782
+    },
+    {
+      "n": 427,
+      "acc": 0.9461358313817331,
+      "macro_f1": 0.9529441803718983,
+      "top3": 1.0
+    },
+    {
+      "n": 429,
+      "acc": 0.9324009324009324,
+      "macro_f1": 0.94390432009835,
+      "top3": 0.9953379953379954
+    },
+    {
+      "n": 426,
+      "acc": 0.9272300469483568,
+      "macro_f1": 0.9282374814831656,
+      "top3": 0.9929577464788732
+    },
+    {
+      "n": 426,
+      "acc": 0.9342723004694836,
+      "macro_f1": 0.9457103786572812,
+      "top3": 0.9953051643192489
+    }
+  ],
+  "time": "2026-10-08 18:00",
+  "top_confusions": [
+    [
+      "Software Development and Engineering",
+      "Development",
+      22
+    ],
+    [
+      "Development",
+      "Software Development and Engineering",
+      20
+    ],
+    [
+      "Artificial Intelligence",
+      "Data Science",
+      17
+    ],
+    [
+      "Data Science",
+      "Artificial Intelligence",
+      14
+    ],
+    [
+      "Software Development and Engineering",
+      "Artificial Intelligence",
+      13
+    ],
+    [
+      "Software Development and Engineering",
+      "Security",
+      10
+    ],
+    [
+      "Artificial Intelligence",
+      "Software Development and Engineering",
+      9
+    ],
+    [
+      "Software Development and Engineering",
+      "Data Science",
+      7
+    ]
+  ],
+  "config": {
+    "model": "distilbert-base-uncased",
+    "tag": "distilbert_seed13",
+    "datasets": "djinni,faruque",
+    "folds": "0,1,2,3,4",
+    "epochs": 3,
+    "lr": 5e-05,
+    "batch": 32,
+    "max_len": 256,
+    "seed": 13,
+    "limit": 0,
+    "skip_forms": true
+  }
+}

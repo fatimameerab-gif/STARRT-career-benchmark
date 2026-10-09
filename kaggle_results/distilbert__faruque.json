@@ -1,0 +1,101 @@
+{
+  "model": "distilbert",
+  "dataset": "faruque",
+  "summary": {
+    "acc": 0.9307,
+    "macro_f1": 0.9392,
+    "top3": 0.9944,
+    "acc_sd": 0.0112,
+    "macro_f1_sd": 0.0099,
+    "top3_sd": 0.0038,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 427,
+      "acc": 0.9133489461358314,
+      "macro_f1": 0.9276960706292395,
+      "top3": 0.9882903981264637
+    },
+    {
+      "n": 427,
+      "acc": 0.9484777517564403,
+      "macro_f1": 0.9576964709738928,
+      "top3": 0.9953161592505855
+    },
+    {
+      "n": 429,
+      "acc": 0.9324009324009324,
+      "macro_f1": 0.9365646499486773,
+      "top3": 0.993006993006993
+    },
+    {
+      "n": 426,
+      "acc": 0.9295774647887324,
+      "macro_f1": 0.9364681865928991,
+      "top3": 0.9953051643192489
+    },
+    {
+      "n": 426,
+      "acc": 0.9295774647887324,
+      "macro_f1": 0.9373852248272022,
+      "top3": 1.0
+    }
+  ],
+  "time": "2026-10-08 11:41",
+  "top_confusions": [
+    [
+      "Development",
+      "Software Development and Engineering",
+      23
+    ],
+    [
+      "Software Development and Engineering",
+      "Artificial Intelligence",
+      23
+    ],
+    [
+      "Software Development and Engineering",
+      "Development",
+      22
+    ],
+    [
+      "Data Science",
+      "Artificial Intelligence",
+      16
+    ],
+    [
+      "Artificial Intelligence",
+      "Data Science",
+      10
+    ],
+    [
+      "Software Development and Engineering",
+      "Security",
+      9
+    ],
+    [
+      "Software Development and Engineering",
+      "Data Science",
+      7
+    ],
+    [
+      "Artificial Intelligence",
+      "Development",
+      5
+    ]
+  ],
+  "config": {
+    "model": "distilbert-base-uncased",
+    "tag": "distilbert",
+    "datasets": "djinni,stackoverflow,faruque",
+    "folds": "0,1,2,3,4",
+    "epochs": 3,
+    "lr": 5e-05,
+    "batch": 32,
+    "max_len": 256,
+    "seed": 42,
+    "limit": 0,
+    "skip_forms": false
+  }
+}

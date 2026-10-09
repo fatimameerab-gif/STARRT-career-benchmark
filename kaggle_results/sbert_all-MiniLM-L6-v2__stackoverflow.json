@@ -1,0 +1,88 @@
+{
+  "model": "sbert_all-MiniLM-L6-v2",
+  "dataset": "stackoverflow",
+  "summary": {
+    "acc": 0.4662,
+    "macro_f1": 0.4082,
+    "top3": 0.7325,
+    "acc_sd": 0.0079,
+    "macro_f1_sd": 0.0081,
+    "top3_sd": 0.0066,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 4876,
+      "acc": 0.47087776866283837,
+      "macro_f1": 0.41424224934658493,
+      "top3": 0.7370795734208367
+    },
+    {
+      "n": 4877,
+      "acc": 0.4718064383842526,
+      "macro_f1": 0.4107215007280578,
+      "top3": 0.7320073815870413
+    },
+    {
+      "n": 4876,
+      "acc": 0.4725184577522559,
+      "macro_f1": 0.4149019129657522,
+      "top3": 0.7374897456931911
+    },
+    {
+      "n": 4876,
+      "acc": 0.45159967186218214,
+      "macro_f1": 0.39267739759976983,
+      "top3": 0.7198523379819525
+    },
+    {
+      "n": 4875,
+      "acc": 0.4644102564102564,
+      "macro_f1": 0.40827718745429886,
+      "top3": 0.7362051282051282
+    }
+  ],
+  "time": "2026-10-08 08:58",
+  "top_confusions": [
+    [
+      "Embedded & IoT",
+      "Game Development",
+      371
+    ],
+    [
+      "Data Engineering & Databases",
+      "Data Science & Analytics",
+      342
+    ],
+    [
+      "Web Development",
+      "DevOps & Cloud",
+      291
+    ],
+    [
+      "Data Engineering & Databases",
+      "AI/ML Engineering",
+      279
+    ],
+    [
+      "Web Development",
+      "UI/UX Design",
+      275
+    ],
+    [
+      "DevOps & Cloud",
+      "Cybersecurity",
+      268
+    ],
+    [
+      "DevOps & Cloud",
+      "Web Development",
+      256
+    ],
+    [
+      "Product & Project Management",
+      "Web Development",
+      251
+    ]
+  ]
+}

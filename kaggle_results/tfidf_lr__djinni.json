@@ -1,0 +1,88 @@
+{
+  "model": "tfidf_lr",
+  "dataset": "djinni",
+  "summary": {
+    "acc": 0.8793,
+    "macro_f1": 0.8634,
+    "top3": 0.9816,
+    "acc_sd": 0.006,
+    "macro_f1_sd": 0.0064,
+    "top3_sd": 0.0015,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 5572,
+      "acc": 0.8758076094759512,
+      "macro_f1": 0.8596919637319457,
+      "top3": 0.9829504666188084
+    },
+    {
+      "n": 5572,
+      "acc": 0.8702440775305097,
+      "macro_f1": 0.8548957752535516,
+      "top3": 0.9807968413496052
+    },
+    {
+      "n": 5573,
+      "acc": 0.8808541180692625,
+      "macro_f1": 0.8621171167891091,
+      "top3": 0.9808002870985106
+    },
+    {
+      "n": 5572,
+      "acc": 0.881191672648959,
+      "macro_f1": 0.8669127675655944,
+      "top3": 0.9795405599425699
+    },
+    {
+      "n": 5572,
+      "acc": 0.8883704235463029,
+      "macro_f1": 0.8735217901332845,
+      "top3": 0.9836683417085427
+    }
+  ],
+  "time": "2026-10-08 08:47",
+  "top_confusions": [
+    [
+      "DevOps & Cloud",
+      "Networking & SysAdmin",
+      432
+    ],
+    [
+      "Data Science & Analytics",
+      "AI/ML Engineering",
+      410
+    ],
+    [
+      "Data Engineering & Databases",
+      "Data Science & Analytics",
+      196
+    ],
+    [
+      "Data Science & Analytics",
+      "Data Engineering & Databases",
+      175
+    ],
+    [
+      "Networking & SysAdmin",
+      "DevOps & Cloud",
+      168
+    ],
+    [
+      "AI/ML Engineering",
+      "Data Science & Analytics",
+      147
+    ],
+    [
+      "Data Science & Analytics",
+      "Product & Project Management",
+      103
+    ],
+    [
+      "Mobile Development",
+      "Web Development",
+      71
+    ]
+  ]
+}

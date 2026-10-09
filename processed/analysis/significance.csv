@@ -1,0 +1,13 @@
+dataset,comparison,distil_only_right,other_only_right,p_value
+djinni,DistilBERT vs TF-IDF + SVM,993,910,0.06011704106732033
+djinni,DistilBERT vs TF-IDF + LR,1145,886,9.903943843895253e-09
+djinni,DistilBERT vs SBERT mpnet + LR,1318,880,8.608708632429163e-21
+djinni,DistilBERT vs SBERT MiniLM + LR (original STARRT.ai),1514,759,2.2196734533871076e-57
+faruque,DistilBERT vs TF-IDF + SVM,64,47,0.1284754320857598
+faruque,DistilBERT vs TF-IDF + LR,75,40,0.001412957498607674
+faruque,DistilBERT vs SBERT mpnet + LR,65,44,0.05490881777576034
+faruque,DistilBERT vs SBERT MiniLM + LR (original STARRT.ai),50,39,0.2890960806960612
+stackoverflow,DistilBERT vs TF-IDF + SVM,3656,1755,3.040744545050437e-150
+stackoverflow,DistilBERT vs TF-IDF + LR,3430,1812,2.8398937167945656e-112
+stackoverflow,DistilBERT vs SBERT mpnet + LR,2949,1650,9.496132245780857e-83
+stackoverflow,DistilBERT vs SBERT MiniLM + LR (original STARRT.ai),2943,1727,1.631271953891895e-71

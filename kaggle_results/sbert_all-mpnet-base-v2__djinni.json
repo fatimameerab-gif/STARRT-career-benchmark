@@ -1,0 +1,88 @@
+{
+  "model": "sbert_all-mpnet-base-v2",
+  "dataset": "djinni",
+  "summary": {
+    "acc": 0.8729,
+    "macro_f1": 0.8562,
+    "top3": 0.9771,
+    "acc_sd": 0.0055,
+    "macro_f1_sd": 0.0061,
+    "top3_sd": 0.0021,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 5572,
+      "acc": 0.8693467336683417,
+      "macro_f1": 0.8525194313888006,
+      "top3": 0.9763101220387652
+    },
+    {
+      "n": 5572,
+      "acc": 0.866116295764537,
+      "macro_f1": 0.8511864130659098,
+      "top3": 0.9750538406317301
+    },
+    {
+      "n": 5573,
+      "acc": 0.871523416472277,
+      "macro_f1": 0.8510414856984193,
+      "top3": 0.9764938094383635
+    },
+    {
+      "n": 5572,
+      "acc": 0.8750897343862168,
+      "macro_f1": 0.8597127688120075,
+      "top3": 0.9763101220387652
+    },
+    {
+      "n": 5572,
+      "acc": 0.8822684852835606,
+      "macro_f1": 0.8667543590881613,
+      "top3": 0.9811557788944724
+    }
+  ],
+  "time": "2026-10-08 09:07",
+  "top_confusions": [
+    [
+      "Data Science & Analytics",
+      "AI/ML Engineering",
+      464
+    ],
+    [
+      "DevOps & Cloud",
+      "Networking & SysAdmin",
+      421
+    ],
+    [
+      "Data Science & Analytics",
+      "Data Engineering & Databases",
+      218
+    ],
+    [
+      "Networking & SysAdmin",
+      "DevOps & Cloud",
+      197
+    ],
+    [
+      "Data Engineering & Databases",
+      "Data Science & Analytics",
+      169
+    ],
+    [
+      "AI/ML Engineering",
+      "Data Science & Analytics",
+      125
+    ],
+    [
+      "Data Science & Analytics",
+      "Product & Project Management",
+      73
+    ],
+    [
+      "Mobile Development",
+      "Web Development",
+      67
+    ]
+  ]
+}

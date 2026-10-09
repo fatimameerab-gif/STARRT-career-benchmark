@@ -1,0 +1,4 @@
+The file kaggle/data/faruque_folds.csv is derived from: Faruque, S. H. (2024). Student Career
+Dataset, Mendeley Data, V2, doi:10.17632/4spj4mbpjr.2, licensed under CC BY 4.0
+(https://creativecommons.org/licenses/by/4.0/). Changes: exact duplicates and texts with two
+labels removed; a 13-class mapping (label13) and fold numbers added.

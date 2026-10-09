@@ -1,0 +1,11 @@
+{
+  "model": "tfidf_svm",
+  "dataset": "forms_from_djinni",
+  "summary": {
+    "n": 33,
+    "acc": 0.8787878787878788,
+    "macro_f1": 0.827922077922078
+  },
+  "folds": [],
+  "time": "2026-10-08 08:50"
+}

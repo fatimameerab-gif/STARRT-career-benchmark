@@ -1,0 +1,88 @@
+{
+  "model": "tfidf_lr",
+  "dataset": "stackoverflow",
+  "summary": {
+    "acc": 0.4498,
+    "macro_f1": 0.3921,
+    "top3": 0.7237,
+    "acc_sd": 0.0079,
+    "macro_f1_sd": 0.0095,
+    "top3_sd": 0.0073,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 4876,
+      "acc": 0.4554963084495488,
+      "macro_f1": 0.39733670893468215,
+      "top3": 0.7223133716160788
+    },
+    {
+      "n": 4877,
+      "acc": 0.44453557514865694,
+      "macro_f1": 0.3836855530889585,
+      "top3": 0.7207299569407423
+    },
+    {
+      "n": 4876,
+      "acc": 0.4585726004922067,
+      "macro_f1": 0.4021474655098408,
+      "top3": 0.7348236259228876
+    },
+    {
+      "n": 4876,
+      "acc": 0.4370385561936013,
+      "macro_f1": 0.3780541855809752,
+      "top3": 0.713084495488105
+    },
+    {
+      "n": 4875,
+      "acc": 0.4531282051282051,
+      "macro_f1": 0.3992434829932044,
+      "top3": 0.7277948717948718
+    }
+  ],
+  "time": "2026-10-08 08:48",
+  "top_confusions": [
+    [
+      "Data Engineering & Databases",
+      "Data Science & Analytics",
+      420
+    ],
+    [
+      "Embedded & IoT",
+      "Game Development",
+      369
+    ],
+    [
+      "DevOps & Cloud",
+      "Cybersecurity",
+      281
+    ],
+    [
+      "Web Development",
+      "Product & Project Management",
+      276
+    ],
+    [
+      "Data Engineering & Databases",
+      "AI/ML Engineering",
+      261
+    ],
+    [
+      "DevOps & Cloud",
+      "Web Development",
+      260
+    ],
+    [
+      "Product & Project Management",
+      "Web Development",
+      260
+    ],
+    [
+      "Web Development",
+      "UI/UX Design",
+      257
+    ]
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "masked_share_of_words_removed": 0.026812495342725118,
+  "tool_vocabulary_size": 200,
+  "tool_coverage_share_ge2": 0.43548329205699726,
+  "tools_median_per_profile": 3.0,
+  "tool_text_median_words": 7.0,
+  "tool_vs_full_macro_f1": [
+    0.5261110152715088,
+    0.8538753326724041
+  ],
+  "exact_means": {
+    "tfidf_lr|djinni": 0.8793,
+    "tfidf_lr|faruque": 0.9143,
+    "tfidf_lr|stackoverflow": 0.4498,
+    "tfidf_svm|djinni": 0.8856,
+    "tfidf_svm|faruque": 0.9227,
+    "tfidf_svm|stackoverflow": 0.4381,
+    "sbert_all-MiniLM-L6-v2|djinni": 0.8615,
+    "sbert_all-MiniLM-L6-v2|faruque": 0.9255,
+    "sbert_all-MiniLM-L6-v2|stackoverflow": 0.4662,
+    "sbert_all-mpnet-base-v2|djinni": 0.8729,
+    "sbert_all-mpnet-base-v2|faruque": 0.9209,
+    "sbert_all-mpnet-base-v2|stackoverflow": 0.4628,
+    "distilbert|djinni": 0.8886,
+    "distilbert|faruque": 0.9307,
+    "distilbert|stackoverflow": 0.5161
+  },
+  "exact_fold_means": {
+    "tfidf_lr|djinni": 0.879293580254197,
+    "tfidf_lr|faruque": 0.9142818775928913,
+    "tfidf_lr|stackoverflow": 0.4497542490824437,
+    "tfidf_svm|djinni": 0.8856106491803819,
+    "tfidf_svm|faruque": 0.9227150053056311,
+    "tfidf_svm|stackoverflow": 0.43814633995748514,
+    "sbert_all-MiniLM-L6-v2|djinni": 0.861490877009435,
+    "sbert_all-MiniLM-L6-v2|faruque": 0.9255231261465386,
+    "sbert_all-MiniLM-L6-v2|stackoverflow": 0.46624251861435717,
+    "sbert_all-mpnet-base-v2|djinni": 0.8728689331149866,
+    "sbert_all-mpnet-base-v2|faruque": 0.9208513336890156,
+    "sbert_all-mpnet-base-v2|stackoverflow": 0.46283811392617835,
+    "distilbert|djinni": 0.8885896633458236,
+    "distilbert|faruque": 0.9306765119741337,
+    "distilbert|stackoverflow": 0.5161194846435324
+  }
+}

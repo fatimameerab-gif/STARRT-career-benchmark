@@ -1,0 +1,101 @@
+{
+  "model": "distilbert_seed7",
+  "dataset": "faruque",
+  "summary": {
+    "acc": 0.9349,
+    "macro_f1": 0.9445,
+    "top3": 0.9944,
+    "acc_sd": 0.0093,
+    "macro_f1_sd": 0.0096,
+    "top3_sd": 0.0019,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 427,
+      "acc": 0.927400468384075,
+      "macro_f1": 0.9376616906206842,
+      "top3": 0.990632318501171
+    },
+    {
+      "n": 427,
+      "acc": 0.9484777517564403,
+      "macro_f1": 0.9570142667406424,
+      "top3": 0.9953161592505855
+    },
+    {
+      "n": 429,
+      "acc": 0.9347319347319347,
+      "macro_f1": 0.9441876652336453,
+      "top3": 0.9953379953379954
+    },
+    {
+      "n": 426,
+      "acc": 0.9225352112676056,
+      "macro_f1": 0.9308569696685729,
+      "top3": 0.9953051643192489
+    },
+    {
+      "n": 426,
+      "acc": 0.9413145539906104,
+      "macro_f1": 0.9530215247810384,
+      "top3": 0.9953051643192489
+    }
+  ],
+  "time": "2026-10-08 18:51",
+  "top_confusions": [
+    [
+      "Software Development and Engineering",
+      "Artificial Intelligence",
+      21
+    ],
+    [
+      "Software Development and Engineering",
+      "Development",
+      21
+    ],
+    [
+      "Development",
+      "Software Development and Engineering",
+      17
+    ],
+    [
+      "Artificial Intelligence",
+      "Data Science",
+      16
+    ],
+    [
+      "Data Science",
+      "Artificial Intelligence",
+      14
+    ],
+    [
+      "Artificial Intelligence",
+      "Software Development and Engineering",
+      8
+    ],
+    [
+      "Software Development and Engineering",
+      "Data Science",
+      7
+    ],
+    [
+      "Software Development and Engineering",
+      "Security",
+      7
+    ]
+  ],
+  "config": {
+    "model": "distilbert-base-uncased",
+    "tag": "distilbert_seed7",
+    "datasets": "djinni,faruque",
+    "folds": "0,1,2,3,4",
+    "epochs": 3,
+    "lr": 5e-05,
+    "batch": 32,
+    "max_len": 256,
+    "seed": 7,
+    "limit": 0,
+    "skip_forms": true
+  }
+}

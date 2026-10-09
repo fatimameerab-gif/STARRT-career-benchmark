@@ -1,0 +1,101 @@
+{
+  "model": "distilbert",
+  "dataset": "stackoverflow",
+  "summary": {
+    "acc": 0.5161,
+    "macro_f1": 0.4031,
+    "top3": 0.7727,
+    "acc_sd": 0.0073,
+    "macro_f1_sd": 0.0119,
+    "top3_sd": 0.0035,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 4876,
+      "acc": 0.5186628383921247,
+      "macro_f1": 0.41044344593838533,
+      "top3": 0.7694831829368335
+    },
+    {
+      "n": 4877,
+      "acc": 0.5242977240106623,
+      "macro_f1": 0.40240158950650406,
+      "top3": 0.7773221242567152
+    },
+    {
+      "n": 4876,
+      "acc": 0.5178424938474159,
+      "macro_f1": 0.40804781943275575,
+      "top3": 0.7737899917965545
+    },
+    {
+      "n": 4876,
+      "acc": 0.5024610336341263,
+      "macro_f1": 0.3805196674934968,
+      "top3": 0.7680475799835931
+    },
+    {
+      "n": 4875,
+      "acc": 0.5173333333333333,
+      "macro_f1": 0.4142741347495361,
+      "top3": 0.774974358974359
+    }
+  ],
+  "time": "2026-10-08 11:38",
+  "top_confusions": [
+    [
+      "Product & Project Management",
+      "Web Development",
+      446
+    ],
+    [
+      "Data Science & Analytics",
+      "Data Engineering & Databases",
+      439
+    ],
+    [
+      "Game Development",
+      "Embedded & IoT",
+      386
+    ],
+    [
+      "Web Development",
+      "DevOps & Cloud",
+      383
+    ],
+    [
+      "DevOps & Cloud",
+      "Web Development",
+      334
+    ],
+    [
+      "DevOps & Cloud",
+      "Data Engineering & Databases",
+      325
+    ],
+    [
+      "Data Engineering & Databases",
+      "Data Science & Analytics",
+      316
+    ],
+    [
+      "Cybersecurity",
+      "DevOps & Cloud",
+      267
+    ]
+  ],
+  "config": {
+    "model": "distilbert-base-uncased",
+    "tag": "distilbert",
+    "datasets": "djinni,stackoverflow,faruque",
+    "folds": "0,1,2,3,4",
+    "epochs": 3,
+    "lr": 5e-05,
+    "batch": 32,
+    "max_len": 256,
+    "seed": 42,
+    "limit": 0,
+    "skip_forms": false
+  }
+}

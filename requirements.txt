@@ -1,0 +1,12 @@
+# versions used for the paper (Python 3.11+); newer versions should also work
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+scipy>=1.13
+matplotlib>=3.8
+pyarrow>=15        # reading the Djinni parquet file
+openpyxl>=3.1      # reading the Faruque xlsx file
+# GPU experiments only
+torch>=2.2
+transformers>=4.44
+sentence-transformers>=3.0

@@ -1,0 +1,81 @@
+{
+  "model": "tfidf_svm",
+  "dataset": "djinni",
+  "summary": {
+    "acc": 0.8856,
+    "macro_f1": 0.8662,
+    "acc_sd": 0.0056,
+    "macro_f1_sd": 0.0058,
+    "folds": 5
+  },
+  "folds": [
+    {
+      "n": 5572,
+      "acc": 0.8831658291457286,
+      "macro_f1": 0.8638108648549793
+    },
+    {
+      "n": 5572,
+      "acc": 0.876346015793252,
+      "macro_f1": 0.8571943203999677
+    },
+    {
+      "n": 5573,
+      "acc": 0.8873138345594832,
+      "macro_f1": 0.8651527543861035
+    },
+    {
+      "n": 5572,
+      "acc": 0.8883704235463029,
+      "macro_f1": 0.8710712342236161
+    },
+    {
+      "n": 5572,
+      "acc": 0.8928571428571429,
+      "macro_f1": 0.8735364254784858
+    }
+  ],
+  "time": "2026-10-08 08:47",
+  "top_confusions": [
+    [
+      "DevOps & Cloud",
+      "Networking & SysAdmin",
+      339
+    ],
+    [
+      "AI/ML Engineering",
+      "Data Science & Analytics",
+      256
+    ],
+    [
+      "Data Science & Analytics",
+      "AI/ML Engineering",
+      253
+    ],
+    [
+      "Networking & SysAdmin",
+      "DevOps & Cloud",
+      250
+    ],
+    [
+      "Data Engineering & Databases",
+      "Data Science & Analytics",
+      217
+    ],
+    [
+      "Data Science & Analytics",
+      "Data Engineering & Databases",
+      158
+    ],
+    [
+      "Data Science & Analytics",
+      "Product & Project Management",
+      97
+    ],
+    [
+      "Mobile Development",
+      "Web Development",
+      67
+    ]
+  ]
+}
