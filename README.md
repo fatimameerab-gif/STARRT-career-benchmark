@@ -102,6 +102,6 @@ See `CITATION.cff`. Please also cite the data sources listed in `DATA_LICENSES.m
 
 ## Contact
 
-Meerab Fatima (p229407@pwr.nu.edu.pk)(fatimameerabb063@gmail.com), FAST-NUCES Peshawar.
-Rohail Iqbal  (p229224@pwr.nu.edu.pk), FAST-NUCES Peshawar.
-Ubaid Malik   (p229351@pwr.nu.edu.pk), FAST-NUCES Peshawar.
+**Meerab Fatima** (p229407@pwr.nu.edu.pk)(fatimameerabb063@gmail.com), FAST-NUCES Peshawar.
+**Rohail Iqbal**  (p229224@pwr.nu.edu.pk), FAST-NUCES Peshawar.
+**Ubaid Malik**  (p229351@pwr.nu.edu.pk), FAST-NUCES Peshawar.
